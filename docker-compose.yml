@@ -1,0 +1,10 @@
+version: "3.11"
+services:
+  app:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: currency_exchange
+    ports:
+      - "8000:8000"
+    command: ["/app/docker/app.sh"]
