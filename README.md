@@ -16,7 +16,7 @@ Swagger Docs http://localhost:8000/api
 Change THIS_API_URL in tests/setting.py if needed. 
 Change API_KEY in tests/setting.py if needed
 
-    cd test
+    cd tests
     pip install -r requirements.txt
 	python3 currency_exchange_test.py
 
